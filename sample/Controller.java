@@ -135,8 +135,8 @@ public class Controller implements Initializable {
         try {
             String driver = "com.mysql.jdbc.Driver";
             String url = "jdbc:mysql://LocalHost:3306/FlagSheetDB?autoReconnect=true&useSSL=false";
-            String username = "root";
-            String password = "October#51983";
+            String username = "";
+            String password = "";
             Class.forName(driver);
 
             Connection conn = DriverManager.getConnection(url, username, password);
